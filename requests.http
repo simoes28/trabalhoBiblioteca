@@ -1,0 +1,53 @@
+#AUTORES
+# GET http://localhost:3000/authors
+
+# POST http://localhost:3000/authors
+# Content-Type: application/json
+
+# {
+#   "nome": "Victor Simões",
+#   "nacionalidade": "Ingles",
+#   "data_nascimento": "28/12/2004"
+# }
+
+# GET http://localhost:3000/authors/103
+
+# PUT http://localhost:3000/authors/101
+# Content-Type: application/json
+
+# {
+#   "nome": "Victor Emanuel",
+#   "nacionalidade": "Brasil",
+#   "data_nascimento": "28/12/2004"
+# }
+
+# DELETE http://localhost:3000/authors/103
+
+# GET http://localhost:3000/authors/100/books
+
+#LIVROS
+# GET http://localhost:3000/books
+
+# POST http://localhost:3000/books
+# Content-Type: application/json
+
+# {
+#   "titulo": "O Hobbit2",
+#   "anopublicacao": 1937,
+#   "genero": "Fantasia",
+#   "autorid": 1
+# }
+
+# GET http://localhost:3000/books/100
+
+# PUT http://localhost:3000/books/101
+# Content-Type: application/json
+
+# {
+#   "titulo": "O Hobbit - Edição Revisada",
+#   "anopublicacao": 1937,
+#   "genero": "Aventura",
+#   "autorid": 1
+# }
+
+# DELETE http://localhost:3000/books/101
